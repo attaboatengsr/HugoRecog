@@ -1,14 +1,14 @@
 from snowboy import snowboydecoder
 
 
-def lightOn():
-	print('something')
+def lightsOn():
+	print('Lights are on')
 	detector.start(hugo)
 
 def hugo():
-	print('success')
-	detector = snowboydecoder.HotwordDetector('wow.pmdl',sensitivity = 0.6, audio_gain = 1)
-	detector.start(foo)
+	print('Success')
+	detector = snowboydecoder.HotwordDetector('LightsOn.pmdl',sensitivity = 0.6, audio_gain = 1)
+	detector.start(lightsOn)
 
 
 
@@ -16,7 +16,7 @@ def hugo():
 
 
 
-
+print('Listening...')
 
 
 detector = snowboydecoder.HotwordDetector('ok_hugo.pmdl',sensitivity = 0.6, audio_gain = 1)
