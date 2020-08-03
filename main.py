@@ -1,7 +1,7 @@
 from snowboy import snowboydecoder
 
 
-def foo():
+def lightOn():
 	print('something')
 	detector.start(hugo)
 
