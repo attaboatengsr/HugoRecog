@@ -1,4 +1,4 @@
 # Hugo
 
 Using the snowboy library for voice recognition
-with require access to the internet. 
+so that our device will not require access to the internet. 
