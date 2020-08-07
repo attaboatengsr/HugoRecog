@@ -3,7 +3,10 @@ from snowboy import snowboydecoder
 
 def lightsOn():
 	print('Lights are on')
+	###INSERT PI-CODE TO TURN ON LED
+
 	detector.start(hugo)
+
 
 def hugo():
 	print('Success')
